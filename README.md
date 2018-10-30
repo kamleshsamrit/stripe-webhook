@@ -1,6 +1,10 @@
 # stripe-connect-webhook
 Integration and Working with Stripe Connect Webhook using Java
 
+## Getting Started
+### The payments platform for platforms
+Marketplaces and platforms use Stripe Connect to accept money and pay out to third parties. Connect provides a complete set of building blocks to support virtually any business model, including on-demand businesses, e‑commerce, crowdfunding, and travel and events.
+
 ## Create Webhook URL
 Ex: "your-domain"+/stripe/handle-webhook
 > See in StripeController.java
