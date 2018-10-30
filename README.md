@@ -14,7 +14,9 @@ Marketplaces and platforms use Stripe Connect to accept money and pay out to thi
 ## Installation
 To download dependencies and jars please visit [here](https://mvnrepository.com/artifact/com.stripe/stripe-java)
 ###### Gradle
-''' compile group: 'com.stripe', name: 'stripe-java', version: '5.6.0' '''
+```
+compile group: 'com.stripe', name: 'stripe-java', version: '5.6.0' 
+```
 
 ## Create Webhook URL
 Ex: "your-domain"+/stripe/handle-webhook
