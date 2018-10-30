@@ -6,6 +6,16 @@ Integration and Working with Stripe Connect Webhook using Java
 Marketplaces and platforms use Stripe Connect to accept money and pay out to third parties. Connect provides a complete set of building blocks to support virtually any business model, including on-demand businesses, e‑commerce, crowdfunding, and travel and events.
 [Click here](https://stripe.com/docs/connect) for stripe documentation. 
 
+## Prerequisites
+* Java IDE (Ex: IntelliJ Idea)
+* Java 8
+* Stripe Account
+
+## Installation
+To download dependencies and jars please visit [here](https://mvnrepository.com/artifact/com.stripe/stripe-java)
+###### Gradle
+''' compile group: 'com.stripe', name: 'stripe-java', version: '5.6.0' '''
+
 ## Create Webhook URL
 Ex: "your-domain"+/stripe/handle-webhook
 > See in StripeController.java
@@ -19,7 +29,6 @@ Used Spring Boot here
 > See in StripeConnectUtils.java
 
 ###### To validate user with Stripe Connect you need make API calls by using Clinet id and secrete.
-To download dependencies and jars please visit [here](https://mvnrepository.com/artifact/com.stripe/stripe-java)
 
 In StripeConnectUtils.java methods are arranged by this flow:
 1. Create Authorization URL
