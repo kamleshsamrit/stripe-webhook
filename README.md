@@ -13,7 +13,7 @@ Ex: "your-domain"+/stripe/handle-webhook
 > See in StripeConnectUtils.java
 
 ###### To validate user with Stripe Connect you need make API calls by using Clinet id and secrete.
-To download dependencies or jar file visit to [here] (https://mvnrepository.com/artifact/com.stripe/stripe-java)
+To download dependencies or jar file visit [here](https://mvnrepository.com/artifact/com.stripe/stripe-java)
 
 In StripeConnectUtils.java methods are arranged by this flow:
 1. Create Authorization URL
