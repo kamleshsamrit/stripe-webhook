@@ -33,7 +33,7 @@ Under your [Stripe Developers settings](https://dashboard.stripe.com/account/web
 ## Create one method to save and validate entered URL
 > See in StripeConnectUtils.java
 
-###### To validate user with Stripe Connect, you need to make API calls by using Clinet id and secrete.
+###### To validate user with Stripe Connect, you need to make API calls by using Client Id and Client Secrete.
 
 In StripeConnectUtils.java methods are arranged by this flow:
 1. Create Authorization URL
