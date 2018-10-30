@@ -1,5 +1,5 @@
-# stripe-webhook
-Integration and Working with Stripe Webhook using Java
+# stripe-connect-webhook
+Integration and Working with Stripe Connect Webhook using Java
 
 ## Create Webhook URL
 Ex: "your-domain"+/stripe/handle-webhook
