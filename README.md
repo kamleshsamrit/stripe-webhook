@@ -4,6 +4,7 @@ Integration and Working with Stripe Connect Webhook using Java
 ## Create Webhook URL
 Ex: "your-domain"+/stripe/handle-webhook
 > See in StripeController.java
+Used Spring Boot here
 
 ## Enter created URL in to your Stripe Dashboard
 1. Under your Stripe Developers settings, head to the "Webhooks" tab and click the "Add endpoint"button.
