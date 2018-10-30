@@ -2,7 +2,7 @@
 Integration and Working with Stripe Webhook
 
 ## Create Webhook URL
-Ex: "your-domain"/stripe/handle-webhook
+Ex: "your-domain"+/stripe/handle-webhook
 
 ## Enter created URL in Stripe Webhook
 1. Under your Stripe Developers settings, head to the "Webhooks" tab and click the "Add endpoint"button.
