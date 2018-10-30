@@ -3,7 +3,7 @@ Integration and Working with Stripe Connect Webhook using Java
 
 ## Getting Started
 ### The payments platform for platforms
-Marketplaces and platforms use Stripe Connect to accept money and pay out to third parties. Connect provides a complete set of building blocks to support virtually any business model, including on-demand businesses, e‑commerce, crowdfunding, and travel and events.
+Marketplaces and platforms use Stripe Connect to accept money and do payments to third parties. Connect provides a complete set of building blocks to support virtually any business model, including on-demand businesses, e‑commerce, crowdfunding, and travel and events.
 [Click here](https://stripe.com/docs/connect) for stripe documentation. 
 
 ## Prerequisites
@@ -26,14 +26,14 @@ Used Spring Boot here
 ## Enter created URL in to your Stripe Dashboard
 Under your Stripe Developers settings, head to the "Webhooks" tab 
   - Click the "Add endpoint"button.
-  - Then, paste in your webhook URL created above, 
+  - Then paste in your webhook,the URL created above
   - Select the webhook version
   - Select "Send all event types"
 
 ## Create one method to save and validate entered URL
 > See in StripeConnectUtils.java
 
-###### To validate user with Stripe Connect you need make API calls by using Clinet id and secrete.
+###### To validate user with Stripe Connect, you need to make API calls by using Clinet id and secrete.
 
 In StripeConnectUtils.java methods are arranged by this flow:
 1. Create Authorization URL
@@ -41,4 +41,4 @@ In StripeConnectUtils.java methods are arranged by this flow:
 3. Authorize user with Stripe by acceptiong Auth Code
 4. Deauthorize user by stripeUserId
 
-###### If you find any mistakes or bugs please feel free to contact me at samritkamlesh@gmail.com
+###### If you find any mistakes or bugs, please feel free to contact me at samritkamlesh@gmail.com
