@@ -25,10 +25,10 @@ Used Spring Boot here
 
 ## Enter created URL in to your Stripe Dashboard
 Under your Stripe Developers settings, head to the "Webhooks" tab 
-  - click the "Add endpoint"button.
+  - Click the "Add endpoint"button.
   - Then, paste in your webhook URL created above, 
-  - select the webhook version
-  - select "Send all event types"
+  - Select the webhook version
+  - Select "Send all event types"
 
 ## Create one method to save and validate entered URL
 > See in StripeConnectUtils.java
