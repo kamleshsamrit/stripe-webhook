@@ -24,7 +24,7 @@ Ex: "your-domain"+/stripe/handle-webhook
 Used Spring Boot here
 
 ## Enter created URL in to your Stripe Dashboard
-Under your Stripe Developers settings, head to the "Webhooks" tab 
+Under your [Stripe Developers settings](https://dashboard.stripe.com/account/webhooks), head to the "Webhooks" tab 
   - Click the "Add endpoint"button.
   - Then paste in your webhook,the URL created above
   - Select the webhook version
