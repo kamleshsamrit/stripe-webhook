@@ -21,4 +21,4 @@ In StripeConnectUtils.java methods are arranged by this flow:
 3. Authorize user with Stripe by acceptiong Auth Code
 4. Deauthorize user by stripeUserId
 
-###### Please suggest any changes bugs here
+###### If you find any mistakes or bugs please feel free to contact me at samritkamlesh@gmail.com
