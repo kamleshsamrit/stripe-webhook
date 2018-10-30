@@ -5,7 +5,7 @@ Integration and Working with Stripe Webhook using Java
 Ex: "your-domain"+/stripe/handle-webhook
 > See in StripeController.java
 
-## Enter created URL in Stripe Webhook
+## Enter created URL in to your Stripe Dashboard
 1. Under your Stripe Developers settings, head to the "Webhooks" tab and click the "Add endpoint"button.
 2. Then, paste in your webhook URL provided above(in Blue color), select the webhook version, and select "Send all event types"
 
