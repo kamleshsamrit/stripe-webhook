@@ -38,7 +38,7 @@ Under your [Stripe Developers settings](https://dashboard.stripe.com/account/web
 In StripeConnectUtils.java methods are arranged by this flow:
 1. Create Authorization URL
 2. Get Stripe User profile or account details 
-3. Authorize user with Stripe by acceptiong Auth Code
+3. Authorize user with Stripe by accepting Auth Code
 4. Deauthorize user by stripeUserId
 
 ###### If you find any mistakes or bugs, please feel free to contact me at samritkamlesh@gmail.com
